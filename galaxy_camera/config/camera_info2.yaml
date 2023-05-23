@@ -1,0 +1,21 @@
+# 使用大恒相机进行测试    infantry 3
+image_width: 640
+image_height: 640
+camera_name: narrow_stereo
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1287.693687, 0.000000, 327.935123, 0.000000, 1287.315687, 321.828205, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.058977, -0.110491, -0.001443, -0.000810, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1280.441040, 0.000000, 327.299321, 0.000000, 0.000000, 1280.052368, 320.992289, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]

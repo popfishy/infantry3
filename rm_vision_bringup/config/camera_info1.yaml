@@ -1,0 +1,21 @@
+# 使用大恒相机进行测试  哨兵相机 sentry
+image_width: 640
+image_height: 640
+camera_name: narrow_stereo
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1292.344992, 0.000000, 318.389742, 0.000000, 1292.656952, 294.965246, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.085753, 0.166641, -0.000956, -0.000639, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1284.246704, 0.000000, 317.723305, 0.000000, 0.000000, 1284.385498, 294.072588, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]
